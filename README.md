@@ -2,6 +2,13 @@
 
 Kanban-style web app for tracking job applications. Drag applications between columns (Applied / Interview / Offer / Rejected), set follow-up reminders, and use AI to auto-parse job postings.
 
+[![CI](https://github.com/Tony75546885/job-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/Tony75546885/job-tracker/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+## Deploy
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Tony75546885/job-tracker)
+
 ## Stack
 
 - **Frontend**: React (Vite), TypeScript, Tailwind CSS, dnd-kit, React Query
