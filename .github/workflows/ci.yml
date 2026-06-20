@@ -36,6 +36,9 @@ jobs:
 
       - run: bun install
       - run: npx prisma generate
+      - run: npx prisma migrate deploy
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/jobtracker_test
       - run: bun run build
       - run: bun run test
         env:
