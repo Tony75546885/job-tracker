@@ -8,7 +8,6 @@ import {
 } from "@dnd-kit/core";
 import type {
   DragEndEvent,
-  DragOverEvent,
   DragStartEvent,
 } from "@dnd-kit/core";
 import { Plus, Loader2 } from "lucide-react";
