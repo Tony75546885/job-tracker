@@ -51,7 +51,7 @@ export function KanbanBoard() {
     if (app) setActiveApp(app);
   };
 
-  const handleDragOver = (_event: DragOverEvent) => {};
+  const handleDragOver = () => {};
 
   const handleDragEnd = (event: DragEndEvent) => {
     setActiveApp(null);

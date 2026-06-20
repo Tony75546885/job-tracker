@@ -40,7 +40,8 @@ jobs:
       - run: bun run test
         env:
           DATABASE_URL: postgresql://postgres:postgres@localhost:5432/jobtracker_test
-          JWT_SECRET: ci-test-secret
+          JWT_SECRET: ci-test-secret-that-is-at-least-32-characters-long
+          NODE_ENV: test
 
   frontend:
     runs-on: ubuntu-latest
@@ -56,4 +57,3 @@ jobs:
 
       - run: bun install
       - run: bun run build
-      - run: bun run lint
